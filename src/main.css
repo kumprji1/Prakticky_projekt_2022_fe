@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 2rem;
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #3a4750;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+  padding: 1rem;
+}
+
+
+.project_section {
+  padding: 2.5rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_name_label {
+  font-weight: 400;
+  font-style: italic;
+  color: #323643;
+}
+
+.project_name {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 250%;
+  text-align: center;
+}
+
+.project_description {
+  padding-top: 1rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+.workshop_section {
+  padding: 4rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workshop_section__content_wrapper {
+  max-width: 500px;
+}
+
+.first_workshop__item {
+  padding: 1rem 2.5rem 1.5rem 2.5rem;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+}
+
+.first_workshop__item--title_wrapper {
+  border-left: 3px solid #009fdf;
+}
+
+.first_workshop__item--title_label {
+  padding-left: 0.5rem;
+  font-style: italic;
+  font-size: 100%;
+  color: #3a3e4d;
+}
+
+.first_workshop__item--title {
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+
+.first_workshop__item--description {
+  padding-top: 0.5rem;
+  font-weight: 300;
+}
+
+.first_workshop__item--dates_title_wrapper {
+  margin-top: 1rem;
+  border-left: 3px solid #009fdf;
+}
+
+.first_workshop__item--dates {
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+
+.first_workshop__item--date {
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  header {
+    justify-content: flex-end;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .main_nav {
+    display: block;
+  }
+  .mobile_main_nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    justify-content: center;
+  }
+}
