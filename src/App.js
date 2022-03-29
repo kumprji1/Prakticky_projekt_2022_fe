@@ -1,22 +1,29 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navigation from "./shared/components/Navigation/Navigation";
+// Components
+import Header from "./shared/components/Header/Header";
 
+// Pages
 import FirstPage from "./shared/pages/FirstPage";
 
 import "./main.css";
+import Footer from "./shared/components/Footer/Footer";
 
 function App() {
   return (
-    <div className="app">
-      <Navigation />
-      <main>
-        <FirstPage />
-      </main>
-      <footer>
-        <p className="footer-text">2022 © Univerzita Hradec Králové</p>
-      </footer>
-    </div>
+    <Router>
+      <div className="app">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/prvni-workshop" element={<FirstPage />} />
+            <Route path="/" element={<FirstPage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -3,9 +3,9 @@ import React, { Fragment, useState } from "react";
 import UhkLogo from "../../../img/fim-uhk-cs_hor.svg";
 import Backdrop from "../UI/Backdrop/Backdrop";
 
-import './Navigation.css'
+import './Header.css'
 
-const Navigation = () => {
+const Header = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
   return (
@@ -37,4 +37,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Header;
