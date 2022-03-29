@@ -14,7 +14,7 @@ const Navigation = () => {
           <ul className="mobile_main_nav__links">
             <li className="mobile_main_nav__link">O projektu</li>
             <li className="mobile_main_nav__link">Workshopy</li>
-            <li className="mobile_main_nav__link">Výstupy</li>
+            {/* <li className="mobile_main_nav__link">Výstupy</li> */}
           </ul>
         </nav>
       {showMobileNav && <Backdrop clear={() => setShowMobileNav(false)}/>}
@@ -29,7 +29,7 @@ const Navigation = () => {
           <ul className="main_nav__links">
             <li className="main_nav__link">O projektu</li>
             <li className="main_nav__link">Workshopy</li>
-            <li className="main_nav__link">Výstupy</li>
+            {/* <li className="main_nav__link">Výstupy</li> */}
           </ul>
         </nav>
       </header>
