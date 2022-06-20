@@ -30,10 +30,10 @@ const Header = () => {
           </div>
           <nav className="main_nav">
             <ul className="main_nav__links">
-              <li className="main_nav__link active_link">O projektu</li>
-              <li className="main_nav__link">Workshopy</li>
-              <li className="main_nav__link">Výstupy</li>
-              <li className="main_nav__link">Kontakty</li>
+              <a className="main_nav__link" href="https://www.artisec.cz/o-projektu">O projektu</a>
+              <a className="main_nav__link" href="https://www.artisec.cz/workshop">Workshopy</a>
+              <a className="main_nav__link">Výstupy</a>
+              <a className="main_nav__link" href="https://www.artisec.cz/kontakty">Kontakty</a>
               {/* <li className="main_nav__link">Výstupy</li> */}
             </ul>
           </nav>

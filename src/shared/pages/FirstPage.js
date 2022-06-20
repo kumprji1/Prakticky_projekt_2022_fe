@@ -29,6 +29,12 @@ const FirstPage = () => {
           </div>
         </div>
         <a
+          className="artisec_project_link"
+          href="https://www.artisec.cz/o-projektu"
+        >
+          Přejít na ARTISEC
+        </a>
+        <a
           className="uhk_project_link"
           href="https://www.uhk.cz/cs/fakulta-informatiky-a-managementu/veda-a-vyzkum/vav-projekty/projekty-ministerstva-vnitra-cr"
         >
