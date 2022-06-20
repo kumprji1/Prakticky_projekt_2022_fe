@@ -1,0 +1,19 @@
+footer {
+    background-color: #f3f3f3;
+}
+
+.footer-strip {
+    background: rgb(0,173,228);
+    background: -moz-linear-gradient(90deg, rgba(0,173,228,1) 0%, rgba(255,255,255,1) 50%, rgba(236,29,58,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,173,228,1) 0%, rgba(255,255,255,1) 50%, rgba(236,29,58,1) 100%);
+    background: linear-gradient(90deg, rgba(0,173,228,1) 0%, rgba(255,255,255,1) 50%, rgba(236,29,58,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ade4",endColorstr="#ec1d3a",GradientType=1);    
+    height: 5px;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+  }
+  
