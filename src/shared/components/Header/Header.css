@@ -1,21 +1,25 @@
 header {
   position: sticky;
-  min-height: 50px;
+  min-height: 80px;
   top: 0;
   /* background-color: #606470; */
   /* background-color: #f7f7f7; */
-  background-color: #e6e6e6;
+  background-color: #fdfdfd;
   display: flex;
   flex-flow: row;
   justify-content: flex-end;
   align-items: center;
+  box-shadow: 0 0 20px -12px black;
 }
 
-.fim_uhk_logo {
+/* .header_content--wrapper {
+  max-width: 1200px;
+} */
+.artisec_logo {
   position: absolute;
-  left: 0;
+  left: 10px;
   padding: 0.5rem;
-  max-width: 20rem;
+  max-height: 80px;
 }
 
 .mobile_main_nav {
@@ -44,12 +48,12 @@ header {
   padding: 1rem 2rem;
   font-weight: 500;
   cursor: pointer;
-  background-color: #d6d6d6;
+  background-color: #f4f4f4;
   color: #3a3e4d;
 }
 
 .mobile_main_nav__link:not(:last-child) {
-  border-bottom: 2px solid #009fdf;
+  border-bottom: 2px solid #00ade4;
 }
 
 .hamburger {
@@ -63,7 +67,8 @@ header {
   width: 2rem;
   height: 0.2rem;
   margin-bottom: 0.5rem;
-  background-color: #009fdf;
+  /* background-color: #009fdf; */
+  background-color: #00ade4;
 }
 
 .main_nav {
@@ -77,24 +82,29 @@ header {
 }
 
 .main_nav__link {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   margin: 0.4rem 1rem;
-  border-radius: 5px;
+  border-radius: 30px;
+  border: 2px solid #ec1d3a;
   font-weight: 500;
   cursor: pointer;
-  /* background-color: #323643; */
-  background-color: #d6d6d6;
-  /* color: #f7f7f7; */
-  color: #3a3e4d;
-  transition: all 100ms;
+  background-color: #fdfdfd;
+  color : #ec1d3a;
+  transition: all 180ms;
 }
 
 .main_nav__link:hover {
   /* color: #93DEFF; */
   /* background-color: #3a3e4d; */
-  background-color: #cccccc;
+
+
+  /* background-color: #ff2c2c; */
+  box-shadow: 0px 0px 5px 0px #ff5b5b;
+  /* border: 2px solid #ff2c2c; */
+  /* color: white; */
 }
 
 .active_link {
-  color: #009fdf;
+  background-color: #ec1d3a;
+  color: white;
 }
